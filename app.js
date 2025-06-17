@@ -14,23 +14,18 @@ for(let i =1; i <= 100; i++)
 console.log("EXERCISE 2:\n==========\n");
 for(let i = 1; i<=100; i++)
 {
-  if(i % 3 == 0)
+  if(i % 3 === 0 && i % 5 === 0)
   {
-    if (i % 5 == 0)
-    {
       console.log(`${i} "FIZZBUZZ"`);
-    }
-    else
-    {
-      console.log(`${i} "FIZZ"`);
-    }
   }
-
-  else if(i % 5 == 0)
+  else if (i % 3 === 0)
+  {  
+      console.log(`${i} "FIZZ"`);    
+  }
+  else if(i % 5 === 0)
   {
     console.log(`${i} "BUZZ"`);
   }
-
   else
   {
     console.log(`${i}`);
@@ -76,23 +71,18 @@ num = 0;
 
 while(num <= 100)
 {
-  if(num % 3 == 0)
+  if(num % 3 === 0 && num % 5 === 0)
   {
-    if (num % 5 == 0)
-    {
       console.log(`${num} "FIZZBUZZ"`);
-    }
-    else
-    {
-      console.log(`${num} "FIZZ"`);
-    }
   }
-
-  else if(num % 5 == 0)
+  else if (num % 3 === 0)
+  {  
+      console.log(`${num} "FIZZ"`);    
+  }
+  else if(num % 5 === 0)
   {
     console.log(`${num} "BUZZ"`);
   }
-
   else
   {
     console.log(`${num}`);
@@ -108,23 +98,18 @@ console.log("Exercise 2 Do-While Loop");
 
 do
 {
-  if(num % 3 == 0)
+  if(num % 3 === 0 && num % 5 === 0)
   {
-    if (num % 5 == 0)
-    {
       console.log(`${num} "FIZZBUZZ"`);
-    }
-    else
-    {
-      console.log(`${num} "FIZZ"`);
-    }
   }
-
-  else if(num % 5 == 0)
+  else if (num % 3 === 0)
+  {  
+      console.log(`${num} "FIZZ"`);    
+  }
+  else if(num % 5 === 0)
   {
     console.log(`${num} "BUZZ"`);
   }
-
   else
   {
     console.log(`${num}`);
@@ -164,25 +149,23 @@ let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1); // creates a random 
 let start = Math.round(Math.random() * (10 - 1) + 1); // creates a random number between 1 and 10
 let end = Math.round(Math.random() * (1000 - 100) + 100); // creates a random number between 100 and 1000
 
+console.log(`Numbers: ${fizzDivisor} and ${buzzDivisor}`)
+console.log(`Starting with ${start} and ending with ${end}\n-----------------------------------\n`)
+
 for(let i = start; i<=end; i++)
 {
-  if(i % fizzDivisor == 0)
+  if(i % fizzDivisor === 0 && i % buzzDivisor === 0)
   {
-    if (i % buzzDivisor == 0)
-    {
       console.log(`${i} "FIZZBUZZ"`);
-    }
-    else
-    {
-      console.log(`${i} "FIZZ"`);
-    }
   }
-
-  else if(i % buzzDivisor == 0)
+  else if (i % fizzDivisor === 0)
+  {  
+      console.log(`${i} "FIZZ"`);    
+  }
+  else if(i % buzzDivisor === 0)
   {
     console.log(`${i} "BUZZ"`);
   }
-
   else
   {
     console.log(`${i}`);
