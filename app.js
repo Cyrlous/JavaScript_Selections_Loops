@@ -2,7 +2,7 @@ console.log("Hello World!\n==========\n");
 
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
-for(let i =1; i <= 100; i++)
+for(let i = 1; i <= 100; i++)
 {
   if (i % 2 != 0)
   {
@@ -16,15 +16,15 @@ for(let i = 1; i<=100; i++)
 {
   if(i % 3 === 0 && i % 5 === 0)
   {
-      console.log(`${i} "FIZZBUZZ"`);
+      console.log(`${i} FIZZBUZZ`);
   }
   else if (i % 3 === 0)
   {  
-      console.log(`${i} "FIZZ"`);    
+      console.log(`${i} FIZZ`);    
   }
   else if(i % 5 === 0)
   {
-    console.log(`${i} "BUZZ"`);
+    console.log(`${i} BUZZ`);
   }
   else
   {
@@ -73,15 +73,15 @@ while(num <= 100)
 {
   if(num % 3 === 0 && num % 5 === 0)
   {
-      console.log(`${num} "FIZZBUZZ"`);
+      console.log(`${num} FIZZBUZZ`);
   }
   else if (num % 3 === 0)
   {  
-      console.log(`${num} "FIZZ"`);    
+      console.log(`${num} FIZZ`);    
   }
   else if(num % 5 === 0)
   {
-    console.log(`${num} "BUZZ"`);
+    console.log(`${num} BUZZ`);
   }
   else
   {
@@ -100,15 +100,15 @@ do
 {
   if(num % 3 === 0 && num % 5 === 0)
   {
-      console.log(`${num} "FIZZBUZZ"`);
+      console.log(`${num} FIZZBUZZ`);
   }
   else if (num % 3 === 0)
   {  
-      console.log(`${num} "FIZZ"`);    
+      console.log(`${num} FIZZ`);    
   }
   else if(num % 5 === 0)
   {
-    console.log(`${num} "BUZZ"`);
+    console.log(`${num} BUZZ`);
   }
   else
   {
@@ -129,14 +129,14 @@ for(let i = 0; i <= n; i++)
 {
   if(i == value)
   {
-    console.log(`"Found value! ${n}"`)
+    console.log(`Found value! ${n}`)
 
     break;
   }
 
   if(i == n)
   {
-    console.log(`"Did not find value ${n}`)
+    console.log(`Did not find value ${n}`)
   }
 }
 
@@ -156,15 +156,15 @@ for(let i = start; i<=end; i++)
 {
   if(i % fizzDivisor === 0 && i % buzzDivisor === 0)
   {
-      console.log(`${i} "FIZZBUZZ"`);
+      console.log(`${i} FIZZBUZZ`);
   }
   else if (i % fizzDivisor === 0)
   {  
-      console.log(`${i} "FIZZ"`);    
+      console.log(`${i} FIZZ`);    
   }
   else if(i % buzzDivisor === 0)
   {
-    console.log(`${i} "BUZZ"`);
+    console.log(`${i} BUZZ`);
   }
   else
   {
